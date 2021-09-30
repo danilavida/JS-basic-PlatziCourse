@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Figuras Geometricas | Curso Practico de JS</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@300;500;900&display=swap"
+    rel="stylesheet " />
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+  <header>
+    <div class="header--title-container">
+      <h1>
+        Figuras Geometricas
+      </h1>
+      <p>Aqui calcularemos medidas de figuras geometricas</p>
+    </div>
+  </header>
+  <main>
+    <section class="main-square--container">
+      <h2>Calcula el area y perimetro de un cuadrado</h2>
+      <img src="./assets/img/cuadrado.svg" alt="cuadrado">
+      <form>
+        <label for="InputCuadrado"></label>
+        <input id="InputCuadrado" type="number" class="InputCuadrado-field" placeholder="Introduce las medidas" />
+        <button class="button-perimetro" type="button" onclick="calcularPerimetroCuadrado()">
+          Calcular Perimetro
+        </button>
+        <button class="button-area" type="button" onclick="calcularAreaCuadrado()">
+          Calcular el area
+        </button>
+      </form>
+    </section>
+
+    <section class="main-triangle--container">
+      <h2>Calcula el area y perimetro de un triangulo</h2>
+      <form>
+        <label for="InputTriangulo">
+          Escribe cuanto mide cada lado de tu Triangulo:
+        </label>
+        <input id="InputTriangulo" type="number" />
+
+        <button type="button" onclick="calcularPerimetroTriangulo()">
+          Calcular el perimetro
+        </button>
+        <button type="button" onclick="calcularAreaTriangulo()">
+          Calcular el area
+        </button>
+      </form>
+    </section>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="./js/figuras.js"></script>
+</body>
+</main>
+
+</html>

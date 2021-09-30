@@ -1,0 +1,124 @@
+:root {
+  /* Colors */
+  --bitcoin-orange: #f7931a;
+  --soft-orange: #ffe9d5;
+  --secondary-blue: #1a9af7;
+  --soft-blue: #e7f5ff;
+  --warm-black: #282623;
+  --black: #201e1c;
+  --off-white: #faf8f7;
+  --just-white: #fff;
+  --grey: #bababa;
+  --yellow: #c6e420;
+  --red: #c74848;
+  --off-red: #f3caca;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "DM Sans", sans-serif;
+}
+
+header {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  min-width: 320px;
+  height: 334px;
+  text-align: center;
+  background: linear-gradient(208.83deg,var(--black) 16.69%,var(--red) 100% );
+}
+
+.header--title-container h1 {
+  font-size: 2.4rem;
+  font-weight: bolder;
+  line-height: 2.6rem;
+  color: var(--soft-orange);
+}
+
+.header--title-container p {
+  margin-top: 26px;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: var(--soft-orange);
+}
+
+main {
+  width: 100%;
+  height: auto;
+}
+
+.main-square--container {
+  width: 100%;
+  height: auto;
+  padding-top: 60px;
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+.main-square--container h2 {
+  padding-bottom: 10px;
+}
+
+.main-square--container img {
+  padding-top: 20px;
+  padding-bottom: 15px;
+  width: 20%;
+  height: auto;
+}
+
+.InputCuadrado-field {
+  padding-bottom: 10px;
+  font-size: .4rem;
+  font-weight: bold;
+  line-height: .6rem;
+  color: var(--black);
+  display: inline-block;
+  text-align: center;
+  padding: 13px 20px 13px;
+  color: var(--black);
+  background-color: var(--soft-orange);
+  border-radius: 24px;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+
+
+
+.InputCuadrado-field:focus {
+  padding: .8rem 1.15rem;
+  outline: none;
+}
+
+.button-perimetro {
+  padding-bottom: 10px;
+  display: inline-block;
+  text-align: center;
+  padding: 13px 20px 13px;
+  color: var(--black);
+  background-color: var(--soft-orange);
+  border-radius: 24px;
+}
+
+.button-area {
+  padding-bottom: 10px;
+  display: inline-block;
+  text-align: center;
+  padding: 13px 20px 13px;
+  color: var(--black);
+  background-color: var(--soft-orange);
+  border-radius: 24px;
+}
+
+
