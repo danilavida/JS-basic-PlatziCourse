@@ -15,3 +15,11 @@
 -Segundo paso: Implementar las formulas en JS
 -Tercer paso: Crear Funciones
 -Cuarto Paso: Integrar JS con HTMl
+
+## Taller #3: Promedio, Media y Mediana
+
+-Primer paso: definir las formulas
+-Segundo paso: Implementar las formulas en JS
+-Tercer paso: Crear Funciones
+-Cuarto Paso: Integrar JS con HTMl
+ 
